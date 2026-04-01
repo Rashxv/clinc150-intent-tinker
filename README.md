@@ -164,23 +164,4 @@ Each example is converted to a chat-style instruction / response pair.
 
 That part is left explicit on purpose so the scaffold stays accurate and easy to adapt.
 
-## Suggested experiments
-
-1. **Base model zero-shot**
-2. **Base model few-shot**
-3. **Fine-tuned model (LoRA)**
-4. **Learning-rate sweep on validation set**
-5. **With vs without OOS**
-
-## Deliverables checklist
-
-- [ ] processed dataset with documentation
-- [ ] baseline results
-- [ ] fine-tuned model on Tinker
-- [ ] accuracy + macro-F1
-- [ ] per-intent table
-- [ ] confusion matrix
-- [ ] train / validation loss plots
-- [ ] short technical report
-- [ ] live demo on test-style utterances
 
