@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+
+# Env
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and outputs
+results/runs/*
+results/figures/*
+results/tables/*
+!results/runs/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+data/raw/*
+data/processed/*
+data/metadata/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/metadata/.gitkeep
+
+# Editors
+.vscode/
+.idea/
+.DS_Store

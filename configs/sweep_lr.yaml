@@ -1,0 +1,7 @@
+base_config: configs/base.yaml
+learning_rates:
+  - 5.0e-5
+  - 1.0e-4
+  - 2.0e-4
+  - 5.0e-4
+notes: Sweep LR first on validation accuracy and macro-F1.
