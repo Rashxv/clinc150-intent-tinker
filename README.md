@@ -184,10 +184,3 @@ That part is left explicit on purpose so the scaffold stays accurate and easy to
 - [ ] short technical report
 - [ ] live demo on test-style utterances
 
-## Team workflow suggestion
-
-- **Member 1:** data loading + cleaning
-- **Member 2:** prompt formatting + metadata
-- **Member 3:** Tinker training loop + sweeps
-- **Member 4:** evaluation + plots
-- **Member 5:** report + demo + confusion analysis
