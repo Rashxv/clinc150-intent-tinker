@@ -16,7 +16,7 @@ def main() -> None:
     raw_dir = root / "data" / "raw"
     raw_dir.mkdir(parents=True, exist_ok=True)
 
-    dataset = load_dataset("DeepPavlov/clinc150")
+    dataset = load_dataset("DeepPavlov/clinc_oos", "plus")
 
     for split_name, split_ds in dataset.items():
         out_path = raw_dir / f"clinc150_{split_name}.csv"
