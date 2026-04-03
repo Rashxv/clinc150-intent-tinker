@@ -1,30 +1,32 @@
-"""Launch a supervised fine-tuning run on Tinker.
+"""Run supervised fine-tuning on the CLINC150 processed JSONL using Tinker Cookbook.
 
-This is a scaffold, not a final one-click training script. The exact evaluator wiring and
-training loop can vary depending on the current cookbook version and your chosen base model.
-
-What this script already does:
-- loads config
-- validates environment variables
-- prints a concrete training plan
-- shows the places where Tinker calls should go
-
-Next step for your team:
-- copy a minimal SL example from the official Tinker cookbook
-- adapt its renderer / data loader to use data/processed/*.jsonl from this repo
-- keep the logging and metrics paths from this project
+Usage:
+    python scripts/04_train_tinker.py --config configs/base.yaml
+    python scripts/04_train_tinker.py --config configs/final_run.yaml
 """
 
 from __future__ import annotations
 
 import argparse
+import asyncio
 import json
 import os
+import sys
 from pathlib import Path
 
+import chz
 import yaml
 from dotenv import load_dotenv
 
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from tinker_cookbook import cli_utils, model_info
+from tinker_cookbook.renderers import TrainOnWhat
+from tinker_cookbook.supervised import train
+from tinker_cookbook.supervised.data import FromConversationFileBuilder
+from tinker_cookbook.supervised.types import ChatDatasetBuilderCommonConfig
 
 
 def load_config(path: Path) -> dict:
@@ -32,6 +34,43 @@ def load_config(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
+
+def build_train_config(config: dict, root: Path) -> train.Config:
+    """Build a Tinker Cookbook supervised training config from repo YAML."""
+    model_name = config["model"]["base_model"]
+    renderer_name = model_info.get_recommended_renderer_name(model_name)
+
+    train_file = config["paths"]["train_file"].replace("\\", "/")
+    output_dir = str((root / config["paths"]["output_dir"]).resolve())
+
+    batch_size = int(config["training"]["batch_size"]) * int(config["training"]["grad_accum_steps"])
+
+    common_config = ChatDatasetBuilderCommonConfig(
+        model_name_for_tokenizer=model_name,
+        renderer_name=renderer_name,
+        max_length=4096,
+        batch_size=batch_size,
+        train_on_what=TrainOnWhat.ALL_ASSISTANT_MESSAGES,
+    )
+
+    dataset_builder = FromConversationFileBuilder(
+        common_config=common_config,
+        file_path=train_file,
+    )
+
+    overrides = {
+        "log_path": output_dir,
+        "model_name": model_name,
+        "renderer_name": renderer_name,
+        "dataset_builder": dataset_builder,
+        "learning_rate": float(config["training"]["learning_rate"]),
+        "lr_schedule": "linear",
+        "num_epochs": int(config["training"]["num_epochs"]),
+        "eval_every": int(config["training"]["eval_every_steps"]),
+        "save_every": int(config["training"]["save_every_steps"]),
+    }
+
+    return chz.Blueprint(train.Config).apply(overrides).make()
 
 
 def main() -> None:
@@ -42,55 +81,35 @@ def main() -> None:
     root = Path(__file__).resolve().parents[1]
     load_dotenv(root / ".env")
 
-    config = load_config(root / args.config)
-    output_dir = root / config["paths"]["output_dir"]
+    if not os.getenv("TINKER_API_KEY"):
+        raise EnvironmentError("TINKER_API_KEY not found in .env or environment.")
+
+    repo_config = load_config(root / args.config)
+    output_dir = root / repo_config["paths"]["output_dir"]
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    api_key = os.getenv("TINKER_API_KEY")
-    if not api_key:
-        raise EnvironmentError("TINKER_API_KEY not found. Copy .env.example to .env and fill it in.")
-
     plan = {
-        "base_model": config["model"]["base_model"],
-        "lora_rank": config["model"]["lora_rank"],
-        "learning_rate": config["training"]["learning_rate"],
-        "num_epochs": config["training"]["num_epochs"],
-        "train_file": config["paths"]["train_file"],
-        "val_file": config["paths"]["val_file"],
+        "base_model": repo_config["model"]["base_model"],
+        "lora_rank": repo_config["model"]["lora_rank"],
+        "learning_rate": repo_config["training"]["learning_rate"],
+        "num_epochs": repo_config["training"]["num_epochs"],
+        "train_file": repo_config["paths"]["train_file"],
+        "val_file": repo_config["paths"]["val_file"],
         "output_dir": str(output_dir),
     }
 
     print("Training plan:")
     print(json.dumps(plan, indent=2))
 
-    notes = [
-        "TODO 1: Install `tinker` or `tinker-cookbook` in your environment.",
-        "TODO 2: Create a ServiceClient and LoRA TrainingClient.",
-        "TODO 3: Build a supervised data loader from data/processed/train.jsonl.",
-        "TODO 4: Run cross-entropy supervised updates.",
-        "TODO 5: Save checkpoints and collect train/validation losses.",
-        "TODO 6: Export a sampling client for test-time predictions.",
-    ]
-    print("\n".join(notes))
-
-    # -------------------------------------------------------------------------
-    # Minimal reference shape based on the official Tinker docs:
-    #
-    # import tinker
-    # service_client = tinker.ServiceClient()
-    # training_client = service_client.create_lora_training_client(
-    #     base_model=config["model"]["base_model"],
-    #     rank=config["model"]["lora_rank"],
-    # )
-    #
-    # Then adapt a supervised loop from the official cookbook so each datum is rendered
-    # from one JSONL record in data/processed/train.jsonl.
-    # -------------------------------------------------------------------------
-
-    summary_path = output_dir / "run_plan.json"
-    with summary_path.open("w", encoding="utf-8") as f:
+    with (output_dir / "run_plan.json").open("w", encoding="utf-8") as f:
         json.dump(plan, f, indent=2)
-    print(f"Saved run plan to {summary_path}")
+
+    train_config = build_train_config(repo_config, root)
+
+    # Ask before deleting/resuming existing log dir
+    cli_utils.check_log_dir(train_config.log_path, behavior_if_exists="ask")
+
+    asyncio.run(train.main(train_config))
 
 
 if __name__ == "__main__":

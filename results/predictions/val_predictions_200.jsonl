@@ -1,0 +1,200 @@
+{"utterance": "in spanish, meet me tomorrow is said how", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "in french, how do i say, see you later", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "how do you say hello in japanese", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "how do i ask about the weather in chinese", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "how can i say \"cancel my order\" in french", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "how do i say dinner in spanish", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "how do you say good bye in french", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "how do i say thank you in spanish", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "how do i say good bye in chinese", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "how can i say thank you very much in chinese", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "i need to know how to say hello in france", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "would you tell me how to say goodbye in france", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "how do you say hello in mexico", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "tell me how to say hello in chile", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "i want to know how to say goodbye in france", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "would you translate a sentence into russian for me, please", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "would you translate a phrase into mandarin for me", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "can you translate this name into spanish for me, please", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "could you translate this into chinese for me, please", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "could you translate water into dutch for me", "gold_label": "translate", "predicted_label": "translate"}
+{"utterance": "transfer ten dollars from my wells fargo account to my bank of america account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "take one hundred and fifty bucks from my wells fargo checking account and put it in my wells fargo savings account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "put one hundred and seventy five bucks in my wells fargo checking account from my citibank savings account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "move two hundred dollars to my chase savings account to my wells fargo checking account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "move three hundred and fifty dollars from my citibank savings account to my chase savings account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "move a dollar from my checkings to my savings", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "move my money to the other account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "transfer funds to the other account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "please transfer half of my funds to an alternate account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "can you move my money to my savings", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "make an eft to my savings from my checking account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "send 100 dollars from my vanguard money market to my wells fargo savings", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "i need 200 dollars transferred from my long island savings account to my chase checking", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "send from my bbc money market to my t rowe price money market seven thousand dollars", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "i need 2000 to go to my chase checking from my mellon bank savings account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "move 100 dollars from my savings to my checking", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "transfer 1000 dollars from my first national bank to my bethpage federal credit union savings", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "take out of my checking 400 dollars and put it into my emergency savings account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "i need to transfer one thousand dollars to my savings account from my checking", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "transfer 50 dollars from my checking account to my money market account", "gold_label": "transfer", "predicted_label": "transfer"}
+{"utterance": "create a new timer", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "i'd like to set a new timer", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "help me set a timer please", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "10 minutes is what the timer should be set at", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "the timer should have 10 minutes set to it", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "10 minutes is the setting for the timer", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "the timer is calculated for 10 minutes", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "set the timer for 10 minutes", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "can you set a 30 second timer", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "please set a timer to go off in 45 minutes", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "i need you to create a timer", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "i need a timer set please", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "create a timer that is set to go off after 25 mins", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "i need a timer that is set at 1 hour exactly", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "could you set up a timer for me", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "will you start a timer for me", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "set up a 52 minute timer", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "please set up a timer for me", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "set 60 minutes for oven please", "gold_label": "timer", "predicted_label": "timer"}
+{"utterance": "please make the timer for cooking for for 2 hours", "gold_label": "timer", "predicted_label": "cook_time"}
+{"utterance": "may i please have a definition for the work churlish", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "i want to know what trenchant means", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "what is the meaning of fascism", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "can you tell me what a septuagenarian is", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "can you define the word schadenfreude", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "what does unsavory mean", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "please define erection for me", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "what does idiosyncratic mean", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "tell me the meaning of condemnation", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "define monetary for me please", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "tell me the meaning of hegemony", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "what does indignation mean", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "define ambivalence for me please", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "please define institutional racism", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "define antagonist for me please", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "what does distinguish mean", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "what is the meaning of word alliance", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "i need to know what dominate means", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "what is the definition of the word migrate", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "tell me please what paean means", "gold_label": "definition", "predicted_label": "definition"}
+{"utterance": "i want to know what the purpose of life is", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "i want to hear what you think life's purpose is about", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "what do you think the purpose of life is", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "what is the purpose of existence", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "what do you think our purpose is in life", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "i'd like to know the meaning of life", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "what's your opinion on the meaning of life", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "what is life's purpose", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "tell me all about the meaning of life", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "tell me your thoughts about the meaning of life", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "do you have any ideas on the meaning of life", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "do you know the deeper meaning of life", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "tell me the meaning of life", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "can you tell me, what is the meaning of life", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "what is the meaning behind life, do you think", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "what is our purpose", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "what do you think we are on earth for", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "what do you think life is really about", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "do you think we have a higher calling", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "why are humans on earth", "gold_label": "meaning_of_life", "predicted_label": "meaning_of_life"}
+{"utterance": "explain how do i get new insurance", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "tell me how to get new insurance", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "explain to me how do i get new insurance", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "i want to get new insurance", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "can you tell me how do i get new insurance", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "i'd like to know how changes are made to my insurance policy", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "how can i make changes for my insurance policy", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "can you tell me how changes on my insurance policy can be made", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "i'd like to know how to make changes for my insurance policy", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "could you tell me how to make changes to my insurance policy", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "tell me how to change my policy", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "i need to switch insurance plans", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "can you help me switch insurance plans", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "tell me how to make changes to my insurance policy", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "how do i switch to a new insurance plan", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "can you help me switch to a new insurance plan", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "how can i change information on my insurance policy", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "how do i make changes to my insurance policy", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "tell me how to change my insurance policy", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "i need to change my insurance policy, how", "gold_label": "insurance_change", "predicted_label": "insurance_change"}
+{"utterance": "please help me in finding my phone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "please help me find my lost phone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "i need your help finding my lost phone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "help me find my phone please", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "tell me where i left my phone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "what did i do with my phone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "can you tell me where my phone is", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "what happened to my cellphone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "do you remember where i left my cellphone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "where is my cellphone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "do you know where my cellphone is", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "i have lost my phone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "help me, i don't know where my phone is", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "tell me my phone's location", "gold_label": "find_phone", "predicted_label": "current_location"}
+{"utterance": "where would my phone be", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "i need to know my phone's location", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "help locate my phone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "can you find me my phone", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "track down my phone for me", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "my phone is lost and i need help finding it", "gold_label": "find_phone", "predicted_label": "find_phone"}
+{"utterance": "is traveling to france safe", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "is france safe to travel to", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "i need to know is traveling to france safe", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "can i travel to france as far as safety goes", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "can i safely travel to france or is it dangerous", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "are there any current travel alerts for brazil", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "are there any travel alerts for seattle", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "how safe is it to travel to guatemala right now and are there any alerts", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "are there any travel alerts for juarez", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "what's the danger level of flying to russia right now", "gold_label": "travel_alert", "predicted_label": "flight_status"}
+{"utterance": "are there any travel alerts for antarctica", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "are there any travel alerts for mountain view", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "does mexico have any travel alerts i should know about", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "does greece currently have any travel alerts in place", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "are there any travel alerts for brazil", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "how safe is it to visit spain", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "how safe is visiting canada this week", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "have the riots in france triggered any alerts for people traveling to there", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "is there any danger going to brazil", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "is it safe to travel to mexico", "gold_label": "travel_alert", "predicted_label": "travel_alert"}
+{"utterance": "please request pto for march 2 and 3", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "i am requesting pto for march 2 and 3", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "can you please request pto for march 2 and 3", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "i would like to request pto for march 2 and 3", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "i need to request pto for march 2 and 3", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "let me know how to make a vacation request", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "i need to make a vacation request; how", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "can i put in a pto request for may 1 to may 5", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "tell me how to make a vacation request", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "i would like to know if i can put a pto request in for march 19 to march 20", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "am i able to put in a pto request for may 6 to may 18", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "provide assistance on what to do to make a vacation request", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "i need to know how to make a vacation request", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "i need to know if i can put a pto request in for march 10 to march 12", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "tell me whether i can put a pto request in for may 10 to may 15", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "what is the process for making a vacation request", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "what's the method for requesting a vacation", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "what are the steps required for making a vacation request", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "please help me make a request for vacation", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "i have a vacation request that i need made", "gold_label": "pto_request", "predicted_label": "pto_request"}
+{"utterance": "what are some ways to raise my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "what will help my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "are there any videos on how to repair my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "what can i do to get a better credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "will getting a credit card help my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "what are the top 10 ways to build my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "how can i build up my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "how can i build my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "what are some easy ways to make my credit score better", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "how do i prevent my credit score from dropping", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "how should i go about improving my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "how can i make sure that my credit score does not decrease", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "what is the best way to insure that my credit score doesn't decrease", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "what things can i do to increase my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "what is the best way to keep my credit score from going down", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "what is the best thing for me to do to improve my credit score quickly", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "how can i safeguard my credit score from dropping", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "do i have options on how to improve my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "what steps can i take to improve my credit score", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}
+{"utterance": "show me a plan to help my credit score rating", "gold_label": "improve_credit_score", "predicted_label": "improve_credit_score"}

@@ -43,9 +43,10 @@ def main() -> None:
     out_dir = root / "results" / "tables"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    save_metrics_json(metrics, out_dir / "test_metrics.json")
+    stem = pred_path.stem
+    save_metrics_json(metrics, out_dir / f"{stem}_metrics.json")
     build_per_intent_report(df["gold_label"], df["predicted_label"]).to_csv(
-        out_dir / "per_intent_test_report.csv", index=False
+        out_dir / f"{stem}_per_intent_report.csv", index=False
     )
 
     print(f"Saved metrics and per-intent report to {out_dir}")
