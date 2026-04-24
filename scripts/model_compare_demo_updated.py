@@ -23,10 +23,10 @@ from src.dataset_utils import read_jsonl
 load_dotenv(ROOT / ".env")
 
 # Fine-tuned Tinker model
-MODEL_PATH = "tinker://a347532d-63fe-5f43-ab6d-26cf56c78096:train:0/sampler_weights/final"
+MODEL_PATH = "tinker://6cc3a560-3451-582c-8baf-dca20d7a7dff:train:0/sampler_weights/final"
 
 # Base Llama used for zero-shot / few-shot
-LLAMA_MODEL_NAME = "meta-llama/Llama-3.2-1B"
+LLAMA_MODEL_NAME = "meta-llama/Llama-3.2-1B-Instruct"
 
 # Local BERT classifier path
 BERT_MODEL_PATH = ROOT / "results" / "bert_baseline" / "best_model"

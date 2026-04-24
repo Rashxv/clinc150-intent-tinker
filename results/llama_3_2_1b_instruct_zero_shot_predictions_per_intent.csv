@@ -1,0 +1,825 @@
+label,precision,recall,f1-score,support
+weather,0.9090909090909091,1.0,0.9523809523809523,30.0
+timer,0.9655172413793104,0.9333333333333333,0.9491525423728814,30.0
+direct_deposit,1.0,0.9,0.9473684210526315,30.0
+tire_pressure,0.8108108108108109,1.0,0.8955223880597015,30.0
+traffic,1.0,0.7666666666666667,0.8679245283018868,30.0
+w2,0.9565217391304348,0.7333333333333333,0.8301886792452831,30.0
+todo_list,0.6857142857142857,0.8,0.7384615384615385,30.0
+roll_dice,0.9473684210526315,0.6,0.7346938775510204,30.0
+credit_score,0.5769230769230769,1.0,0.7317073170731707,30.0
+carry_on,1.0,0.5666666666666667,0.723404255319149,30.0
+calories,0.5833333333333334,0.9333333333333333,0.717948717948718,30.0
+credit_limit_change,0.7692307692307693,0.6666666666666666,0.7142857142857143,30.0
+jump_start,1.0,0.5333333333333333,0.6956521739130435,30.0
+tire_change,0.9411764705882353,0.5333333333333333,0.6808510638297872,30.0
+uber,1.0,0.5,0.6666666666666666,30.0
+exchange_rate,1.0,0.4666666666666667,0.6363636363636364,30.0
+shopping_list,0.6333333333333333,0.6333333333333333,0.6333333333333333,30.0
+book_flight,0.6666666666666666,0.6,0.631578947368421,30.0
+alarm,0.4225352112676056,1.0,0.594059405940594,30.0
+calendar,0.6818181818181818,0.5,0.5769230769230769,30.0
+mpg,1.0,0.36666666666666664,0.5365853658536586,30.0
+rollover_401k,1.0,0.36666666666666664,0.5365853658536586,30.0
+flip_coin,1.0,0.36666666666666664,0.5365853658536586,30.0
+meaning_of_life,1.0,0.36666666666666664,0.5365853658536586,30.0
+travel_alert,0.65,0.43333333333333335,0.52,30.0
+car_rental,0.36666666666666664,0.7333333333333333,0.4888888888888889,30.0
+current_location,0.7333333333333333,0.36666666666666664,0.4888888888888889,30.0
+card_declined,0.3620689655172414,0.7,0.4772727272727273,30.0
+income,0.7692307692307693,0.3333333333333333,0.46511627906976744,30.0
+whisper_mode,1.0,0.3,0.46153846153846156,30.0
+repeat,1.0,0.3,0.46153846153846156,30.0
+order_status,1.0,0.3,0.46153846153846156,30.0
+gas,0.2987012987012987,0.7666666666666667,0.42990654205607476,30.0
+taxes,1.0,0.26666666666666666,0.42105263157894735,30.0
+sync_device,1.0,0.26666666666666666,0.42105263157894735,30.0
+payday,1.0,0.26666666666666666,0.42105263157894735,30.0
+expiration_date,0.6923076923076923,0.3,0.4186046511627907,30.0
+transfer,0.6428571428571429,0.3,0.4090909090909091,30.0
+freeze_account,1.0,0.23333333333333334,0.3783783783783784,30.0
+lost_luggage,1.0,0.23333333333333334,0.3783783783783784,30.0
+book_hotel,0.3111111111111111,0.4666666666666667,0.37333333333333335,30.0
+oil_change_how,0.29411764705882354,0.5,0.37037037037037035,30.0
+insurance,0.38461538461538464,0.3333333333333333,0.35714285714285715,30.0
+accept_reservations,0.3076923076923077,0.4,0.34782608695652173,30.0
+bill_due,1.0,0.2,0.3333333333333333,30.0
+timezone,1.0,0.2,0.3333333333333333,30.0
+reset_settings,1.0,0.2,0.3333333333333333,30.0
+credit_limit,0.26,0.43333333333333335,0.325,30.0
+bill_balance,0.20202020202020202,0.6666666666666666,0.31007751937984496,30.0
+goodbye,1.0,0.16666666666666666,0.2857142857142857,30.0
+next_holiday,1.0,0.16666666666666666,0.2857142857142857,30.0
+pin_change,1.0,0.16666666666666666,0.2857142857142857,30.0
+report_lost_card,1.0,0.16666666666666666,0.2857142857142857,30.0
+share_location,1.0,0.16666666666666666,0.2857142857142857,30.0
+text,1.0,0.16666666666666666,0.2857142857142857,30.0
+thank_you,1.0,0.16666666666666666,0.2857142857142857,30.0
+change_speed,1.0,0.16666666666666666,0.2857142857142857,30.0
+date,1.0,0.16666666666666666,0.2857142857142857,30.0
+insurance_change,1.0,0.16666666666666666,0.2857142857142857,30.0
+reminder,0.625,0.16666666666666666,0.2631578947368421,30.0
+play_music,0.25925925925925924,0.23333333333333334,0.24561403508771928,30.0
+maybe,1.0,0.13333333333333333,0.23529411764705882,30.0
+damaged_card,1.0,0.13333333333333333,0.23529411764705882,30.0
+change_accent,1.0,0.13333333333333333,0.23529411764705882,30.0
+report_fraud,0.38461538461538464,0.16666666666666666,0.23255813953488372,30.0
+how_old_are_you,0.38461538461538464,0.16666666666666666,0.23255813953488372,30.0
+change_user_name,0.3125,0.16666666666666666,0.21739130434782608,30.0
+vaccines,1.0,0.1,0.18181818181818182,30.0
+next_song,1.0,0.1,0.18181818181818182,30.0
+routing,1.0,0.1,0.18181818181818182,30.0
+time,0.75,0.1,0.17647058823529413,30.0
+no,0.12162162162162163,0.3,0.17307692307692307,30.0
+recipe,0.2,0.13333333333333333,0.16,30.0
+cook_time,0.375,0.1,0.15789473684210525,30.0
+international_fees,0.17391304347826086,0.13333333333333333,0.1509433962264151,30.0
+pto_balance,0.23076923076923078,0.1,0.13953488372093023,30.0
+replacement_card_duration,1.0,0.06666666666666667,0.125,30.0
+distance,1.0,0.06666666666666667,0.125,30.0
+spelling,1.0,0.06666666666666667,0.125,30.0
+yes,1.0,0.06666666666666667,0.125,30.0
+nutrition_info,1.0,0.06666666666666667,0.125,30.0
+todo_list_update,1.0,0.06666666666666667,0.125,30.0
+meeting_schedule,0.6666666666666666,0.06666666666666667,0.12121212121212122,30.0
+ingredients_list,0.6666666666666666,0.06666666666666667,0.12121212121212122,30.0
+user_name,0.3333333333333333,0.06666666666666667,0.1111111111111111,30.0
+order,0.2,0.06666666666666667,0.1,30.0
+cancel,0.05747126436781609,0.16666666666666666,0.08547008547008547,30.0
+cancel_reservation,0.04329004329004329,1.0,0.08298755186721991,30.0
+account_blocked,0.03812316715542522,0.8666666666666667,0.07303370786516854,30.0
+apr,1.0,0.03333333333333333,0.06451612903225806,30.0
+change_language,1.0,0.03333333333333333,0.06451612903225806,30.0
+pto_used,1.0,0.03333333333333333,0.06451612903225806,30.0
+plug_type,1.0,0.03333333333333333,0.06451612903225806,30.0
+interest_rate,1.0,0.03333333333333333,0.06451612903225806,30.0
+fun_fact,0.5,0.03333333333333333,0.0625,30.0
+travel_suggestion,0.5,0.03333333333333333,0.0625,30.0
+calendar_update,0.16666666666666666,0.03333333333333333,0.05555555555555555,30.0
+meal_suggestion,0.16666666666666666,0.03333333333333333,0.05555555555555555,30.0
+are_you_a_bot,0.1,0.03333333333333333,0.05,30.0
+restaurant_reservation,0.04,0.03333333333333333,0.03636363636363636,30.0
+"Directions to Phoenix, Arizona",0.0,0.0,0.0,0.0
+Easter_east,0.0,0.0,0.0,0.0
+Emily,0.0,0.0,0.0,0.0
+Europe,0.0,0.0,0.0,0.0
+Fico,0.0,0.0,0.0,0.0
+"First, make sure you",0.0,0.0,0.0,0.0
+Fish is a type of,0.0,0.0,0.0,0.0
+Flight status for United Airlines,0.0,0.0,0.0,0.0
+Flight status for your American,0.0,0.0,0.0,0.0
+Google,0.0,0.0,0.0,0.0
+Grilled chicken breast with,0.0,0.0,0.0,0.0
+Heads,0.0,0.0,0.0,0.0
+"Hello, old chap.",0.0,0.0,0.0,0.0
+I,0.0,0.0,0.0,0.0
+I am 25,0.0,0.0,0.0,0.0
+I am 25 years old,0.0,0.0,0.0,0.0
+I am a computer.,0.0,0.0,0.0,0.0
+"I am an AI, and",0.0,0.0,0.0,0.0
+I am in a coffee shop,0.0,0.0,0.0,0.0
+I am unable to assist with,0.0,0.0,0.0,0.0
+I can change the accent to,0.0,0.0,0.0,0.0
+I can generate a dad joke,0.0,0.0,0.0,0.0
+I can generate a joke for,0.0,0.0,0.0,0.0
+I can generate a joke.,0.0,0.0,0.0,0.0
+I can provide information on the,0.0,0.0,0.0,0.0
+I can tell you that the,0.0,0.0,0.0,0.0
+I can try to respond in,0.0,0.0,0.0,0.0
+I can understand and respond in,0.0,0.0,0.0,0.0
+I can understand you in Nav,0.0,0.0,0.0,0.0
+I can't assist with that,0.0,0.0,0.0,0.0
+I can't fulfill that request,0.0,0.0,0.0,0.0
+I can't help with that,0.0,0.0,0.0,0.0
+I cannot assist with this request,0.0,0.0,0.0,0.0
+I cannot assist you with this,0.0,0.0,0.0,0.0
+I cannot create content that includes,0.0,0.0,0.0,0.0
+I cannot generate content that includes,0.0,0.0,0.0,0.0
+I cannot give you any information,0.0,0.0,0.0,0.0
+I cannot provide a response that,0.0,0.0,0.0,0.0
+I cannot provide a user's,0.0,0.0,0.0,0.0
+I cannot provide information about a,0.0,0.0,0.0,0.0
+I cannot provide information on this,0.0,0.0,0.0,0.0
+I cannot provide information or guidance,0.0,0.0,0.0,0.0
+I cannot provide personal data about,0.0,0.0,0.0,0.0
+I cannot provide personal information about,0.0,0.0,0.0,0.0
+I cannot provide private information about,0.0,0.0,0.0,0.0
+I cannot provide real-time traffic,0.0,0.0,0.0,0.0
+I cannot respond to this utter,0.0,0.0,0.0,0.0
+"I cannot respond with ""yes",0.0,0.0,0.0,0.0
+I cannot verify if there is,0.0,0.0,0.0,0.0
+I can’t answer that.,0.0,0.0,0.0,0.0
+I can’t assist with that,0.0,0.0,0.0,0.0
+I don't have pets.,0.0,0.0,0.0,0.0
+I recommend visiting the following sights,0.0,0.0,0.0,0.0
+I will respond in the male,0.0,0.0,0.0,0.0
+"I'm a language model,",0.0,0.0,0.0,0.0
+I'm an AI.,0.0,0.0,0.0,0.0
+"I'm doing well, thank",0.0,0.0,0.0,0.0
+I'm from the United States,0.0,0.0,0.0,0.0
+I'm functioning properly.,0.0,0.0,0.0,0.0
+I'm happy to chat with,0.0,0.0,0.0,0.0
+"I'm not a bot,",0.0,0.0,0.0,0.0
+I'm not able to provide,0.0,0.0,0.0,0.0
+"I'm sorry, I am",0.0,0.0,0.0,0.0
+I've got one: Why,0.0,0.0,0.0,0.0
+Koalas are known,0.0,0.0,0.0,0.0
+Kufu kuf,0.0,0.0,0.0,0.0
+"Life is a journey,",0.0,0.0,0.0,0.0
+Manufacturer recommendations for oil changes,0.0,0.0,0.0,0.0
+Monday,0.0,0.0,0.0,0.0
+None,0.0,0.0,0.0,0.0
+Nutrition info for bell,0.0,0.0,0.0,0.0
+Nutrition info for cheese,0.0,0.0,0.0,0.0
+Nutritional info for burger,0.0,0.0,0.0,0.0
+Nutritional info for lettuce,0.0,0.0,0.0,0.0
+Nutritional information for an,0.0,0.0,0.0,0.0
+"Och, hello there",0.0,0.0,0.0,0.0
+Ordering...,0.0,0.0,0.0,0.0
+Ordering... Amazon will,0.0,0.0,0.0,0.0
+PNC,0.0,0.0,0.0,0.0
+Pacific Standard Time,0.0,0.0,0.0,0.0
+Pacific Time Zone,0.0,0.0,0.0,0.0
+Phoenix is located in Arizona,0.0,0.0,0.0,0.0
+"Sorry, we don't",0.0,0.0,0.0,0.0
+Southern Fried Chicken and W,0.0,0.0,0.0,0.0
+Spaghetti bologn,0.0,0.0,0.0,0.0
+Spaghetti carbonara contains,0.0,0.0,0.0,0.0
+Synthesis,0.0,0.0,0.0,0.0
+Thai Basil Stir Fry,0.0,0.0,0.0,0.0
+The Komodo dragon is the,0.0,0.0,0.0,0.0
+The human nose can detect over,0.0,0.0,0.0,0.0
+The sun rises in the east,0.0,0.0,0.0,0.0
+The universe is estimated to contain,0.0,0.0,0.0,0.0
+Traffic update: I'm,0.0,0.0,0.0,0.0
+What is the world's most,0.0,0.0,0.0,0.0
+Why couldn't the bicycle stand,0.0,0.0,0.0,0.0
+Why did the bug go to,0.0,0.0,0.0,0.0
+Why did the dog go to,0.0,0.0,0.0,0.0
+Why did the elephant quit the,0.0,0.0,0.0,0.0
+Why did the water go to,0.0,0.0,0.0,0.0
+Why don't scientists trust atoms,0.0,0.0,0.0,0.0
+Why was the math book sad,0.0,0.0,0.0,0.0
+Why was the politician's cat,0.0,0.0,0.0,0.0
+Xander,0.0,0.0,0.0,0.0
+Yogurt is a,0.0,0.0,0.0,0.0
+You are at a healthy state,0.0,0.0,0.0,0.0
+Your health benefits include increased,0.0,0.0,0.0,0.0
+Your new insurance policy will,0.0,0.0,0.0,0.0
+Your rewards plus card balance,0.0,0.0,0.0,0.0
+a,0.0,0.0,0.0,0.0
+abby,0.0,0.0,0.0,0.0
+abort,0.0,0.0,0.0,0.0
+absolutely,0.0,0.0,0.0,0.0
+account,0.0,0.0,0.0,0.0
+account_balance,0.0,0.0,0.0,0.0
+"account_blocked
+account_blocked",0.0,0.0,0.0,0.0
+"account_blocked
+alarm
+application",0.0,0.0,0.0,0.0
+account_freeze,0.0,0.0,0.0,0.0
+account_pin,0.0,0.0,0.0,0.0
+account_status,0.0,0.0,0.0,0.0
+account_unfreeze,0.0,0.0,0.0,0.0
+account_unlock,0.0,0.0,0.0,0.0
+accueil,0.0,0.0,0.0,0.0
+affirmative,0.0,0.0,0.0,0.0
+age,0.0,0.0,0.0,0.0
+ai,0.0,0.0,0.0,0.0
+album,0.0,0.0,0.0,0.0
+alert_reservations,0.0,0.0,0.0,0.0
+allow,0.0,0.0,0.0,0.0
+allowance,0.0,0.0,0.0,0.0
+"allowed labels: 1,",0.0,0.0,0.0,0.0
+allowed labels: 1.,0.0,0.0,0.0,0.0
+"allowed labels: account_blocked,",0.0,0.0,0.0,0.0
+"allowed labels: add, account",0.0,0.0,0.0,0.0
+"allowed labels: airport, application",0.0,0.0,0.0,0.0
+"allowed labels: alarm, account",0.0,0.0,0.0,0.0
+"allowed labels: application_status,",0.0,0.0,0.0,0.0
+"allowed labels: book_flight,",0.0,0.0,0.0,0.0
+"allowed labels: flight_status,",0.0,0.0,0.0,0.0
+allowed labels: hobbies,0.0,0.0,0.0,0.0
+"allowed labels: insurance_change,",0.0,0.0,0.0,0.0
+"allowed labels: thanks, you",0.0,0.0,0.0,0.0
+allowed labels: vaccines,0.0,0.0,0.0,0.0
+amazing grace,0.0,0.0,0.0,0.0
+amazon,0.0,0.0,0.0,0.0
+american,0.0,0.0,0.0,0.0
+amicable,0.0,0.0,0.0,0.0
+annulment,0.0,0.0,0.0,0.0
+ap,0.0,0.0,0.0,0.0
+apar,0.0,0.0,0.0,0.0
+apart,0.0,0.0,0.0,0.0
+apología,0.0,0.0,0.0,0.0
+apoplectic,0.0,0.0,0.0,0.0
+appeciate,0.0,0.0,0.0,0.0
+appetizer,0.0,0.0,0.0,0.0
+apple,0.0,0.0,0.0,0.0
+applesauce,0.0,0.0,0.0,0.0
+application_status,0.0,0.0,0.0,30.0
+apply,0.0,0.0,0.0,0.0
+appointment,0.0,0.0,0.0,0.0
+appreciate,0.0,0.0,0.0,0.0
+apric,0.0,0.0,0.0,0.0
+april,0.0,0.0,0.0,0.0
+artificial,0.0,0.0,0.0,0.0
+asparagus,0.0,0.0,0.0,0.0
+assistant,0.0,0.0,0.0,0.0
+"assistant
+
+Google",0.0,0.0,0.0,0.0
+"assistant
+
+I don't",0.0,0.0,0.0,0.0
+"assistant
+
+account_blocked",0.0,0.0,0.0,0.0
+"assistant
+
+alarm",0.0,0.0,0.0,0.0
+"assistant
+
+alexa",0.0,0.0,0.0,0.0
+"assistant
+
+apathetic",0.0,0.0,0.0,0.0
+"assistant
+
+book_flight",0.0,0.0,0.0,0.0
+"assistant
+
+calories",0.0,0.0,0.0,0.0
+"assistant
+
+cancel_reservation",0.0,0.0,0.0,0.0
+"assistant
+
+change_oil",0.0,0.0,0.0,0.0
+"assistant
+
+female",0.0,0.0,0.0,0.0
+"assistant
+
+google",0.0,0.0,0.0,0.0
+"assistant
+
+help",0.0,0.0,0.0,0.0
+"assistant
+
+how_old_are",0.0,0.0,0.0,0.0
+"assistant
+
+how_to_change",0.0,0.0,0.0,0.0
+"assistant
+
+liaison",0.0,0.0,0.0,0.0
+"assistant
+
+user",0.0,0.0,0.0,0.0
+ausgefühl,0.0,0.0,0.0,0.0
+available,0.0,0.0,0.0,0.0
+babb,0.0,0.0,0.0,0.0
+bad,0.0,0.0,0.0,0.0
+bailey,0.0,0.0,0.0,0.0
+bake,0.0,0.0,0.0,0.0
+balance,0.0,0.0,0.0,30.0
+bananas,0.0,0.0,0.0,0.0
+bank,0.0,0.0,0.0,0.0
+bank_of_america,0.0,0.0,0.0,0.0
+bee,0.0,0.0,0.0,0.0
+beef,0.0,0.0,0.0,0.0
+bees,0.0,0.0,0.0,0.0
+bill,0.0,0.0,0.0,0.0
+bill_no,0.0,0.0,0.0,0.0
+bill_payment,0.0,0.0,0.0,0.0
+biology,0.0,0.0,0.0,0.0
+birthday,0.0,0.0,0.0,0.0
+bitcoin,0.0,0.0,0.0,0.0
+block,0.0,0.0,0.0,0.0
+block_reservations,0.0,0.0,0.0,0.0
+blueberries,0.0,0.0,0.0,0.0
+bob,0.0,0.0,0.0,0.0
+bogus,0.0,0.0,0.0,0.0
+boil,0.0,0.0,0.0,0.0
+"book_hotel, book_flight",0.0,0.0,0.0,0.0
+"book_hotel, book_reservation",0.0,0.0,0.0,0.0
+"book_hotel, joseph",0.0,0.0,0.0,0.0
+"book_hotel, meeting_schedule",0.0,0.0,0.0,0.0
+book_meeting_room,0.0,0.0,0.0,0.0
+bot,0.0,0.0,0.0,0.0
+both,0.0,0.0,0.0,0.0
+brisket,0.0,0.0,0.0,0.0
+buddy,0.0,0.0,0.0,0.0
+buffet,0.0,0.0,0.0,0.0
+bun,0.0,0.0,0.0,0.0
+bureaucracy,0.0,0.0,0.0,0.0
+bus,0.0,0.0,0.0,0.0
+buy,0.0,0.0,0.0,0.0
+buy_grass,0.0,0.0,0.0,0.0
+bye,0.0,0.0,0.0,0.0
+c-o-u-p,0.0,0.0,0.0,0.0
+c-u-r-i-o-n,0.0,0.0,0.0,0.0
+calculator,0.0,0.0,0.0,30.0
+calculus,0.0,0.0,0.0,0.0
+california,0.0,0.0,0.0,0.0
+call,0.0,0.0,0.0,0.0
+call_alexa,0.0,0.0,0.0,0.0
+calorie,0.0,0.0,0.0,0.0
+calories 55,0.0,0.0,0.0,0.0
+calories: 550,0.0,0.0,0.0,0.0
+cancel_calendar_entry,0.0,0.0,0.0,0.0
+car,0.0,0.0,0.0,0.0
+car_battery,0.0,0.0,0.0,0.0
+car_change,0.0,0.0,0.0,0.0
+car_maintenance,0.0,0.0,0.0,0.0
+car_payment: 1000,0.0,0.0,0.0,0.0
+card,0.0,0.0,0.0,0.0
+card_balance,0.0,0.0,0.0,0.0
+card_change,0.0,0.0,0.0,0.0
+card_change_how,0.0,0.0,0.0,0.0
+card_charge,0.0,0.0,0.0,0.0
+card_company,0.0,0.0,0.0,0.0
+card_damage,0.0,0.0,0.0,0.0
+card_limit,0.0,0.0,0.0,0.0
+card_points,0.0,0.0,0.0,0.0
+card_reward_points,0.0,0.0,0.0,0.0
+card_status,0.0,0.0,0.0,0.0
+carl's cabin,0.0,0.0,0.0,0.0
+carrots,0.0,0.0,0.0,0.0
+catastrophic,0.0,0.0,0.0,0.0
+centimeters,0.0,0.0,0.0,0.0
+change_ai_name,0.0,0.0,0.0,30.0
+change_insurance,0.0,0.0,0.0,0.0
+change_oil,0.0,0.0,0.0,0.0
+change_volume,0.0,0.0,0.0,30.0
+channel_6,0.0,0.0,0.0,0.0
+check,0.0,0.0,0.0,0.0
+check_engine,0.0,0.0,0.0,0.0
+checkbook,0.0,0.0,0.0,0.0
+chick-fil-a,0.0,0.0,0.0,0.0
+chicken,0.0,0.0,0.0,0.0
+chili,0.0,0.0,0.0,0.0
+clams,0.0,0.0,0.0,0.0
+comity,0.0,0.0,0.0,0.0
+computer,0.0,0.0,0.0,0.0
+confirm_reservation,0.0,0.0,0.0,30.0
+connect,0.0,0.0,0.0,0.0
+contact,0.0,0.0,0.0,0.0
+cook,0.0,0.0,0.0,0.0
+country,0.0,0.0,0.0,0.0
+credit,0.0,0.0,0.0,0.0
+credit_balance,0.0,0.0,0.0,0.0
+credit_card,0.0,0.0,0.0,0.0
+credit_cards,0.0,0.0,0.0,0.0
+credit_points,0.0,0.0,0.0,0.0
+credit_rewards,0.0,0.0,0.0,0.0
+cuba,0.0,0.0,0.0,0.0
+cucumbers,0.0,0.0,0.0,0.0
+curiosity,0.0,0.0,0.0,0.0
+"current_location = ""central",0.0,0.0,0.0,0.0
+current_location: dallas,0.0,0.0,0.0,0.0
+current_location: jamaica,0.0,0.0,0.0,0.0
+current_time,0.0,0.0,0.0,0.0
+cvs,0.0,0.0,0.0,0.0
+d12,0.0,0.0,0.0,0.0
+damaged,0.0,0.0,0.0,0.0
+daphne,0.0,0.0,0.0,0.0
+day,0.0,0.0,0.0,0.0
+dear,0.0,0.0,0.0,0.0
+"def add_numbers(num1,",0.0,0.0,0.0,0.0
+default,0.0,0.0,0.0,0.0
+definitely,0.0,0.0,0.0,0.0
+definition,0.0,0.0,0.0,30.0
+delivery,0.0,0.0,0.0,0.0
+dendrofilous,0.0,0.0,0.0,0.0
+dim,0.0,0.0,0.0,0.0
+"$13,777.92",0.0,0.0,0.0,0.0
+directions,0.0,0.0,0.0,30.0
+directions_to_phoenix,0.0,0.0,0.0,0.0
+discontent,0.0,0.0,0.0,0.0
+discover,0.0,0.0,0.0,0.0
+dishwasher,0.0,0.0,0.0,0.0
+¿Cómo se dice rápido,0.0,0.0,0.0,0.0
+do_you_have_pets,0.0,0.0,0.0,30.0
+dog,0.0,0.0,0.0,0.0
+dogs,0.0,0.0,0.0,0.0
+dolphin,0.0,0.0,0.0,0.0
+dominos,0.0,0.0,0.0,0.0
+doritos,0.0,0.0,0.0,0.0
+dusting,0.0,0.0,0.0,0.0
+e,0.0,0.0,0.0,0.0
+eastern,0.0,0.0,0.0,0.0
+electric,0.0,0.0,0.0,0.0
+electricity,0.0,0.0,0.0,0.0
+epicurean,0.0,0.0,0.0,0.0
+$143,0.0,0.0,0.0,0.0
+exercise,0.0,0.0,0.0,0.0
+$2.,0.0,0.0,0.0,0.0
+exquisite,0.0,0.0,0.0,0.0
+factual,0.0,0.0,0.0,0.0
+false,0.0,0.0,0.0,0.0
+female,0.0,0.0,0.0,0.0
+ferrari,0.0,0.0,0.0,0.0
+find_phone,0.0,0.0,0.0,30.0
+flash,0.0,0.0,0.0,0.0
+flight_status,0.0,0.0,0.0,30.0
+flip,0.0,0.0,0.0,0.0
+$2.83,0.0,0.0,0.0,0.0
+food,0.0,0.0,0.0,0.0
+food_last,0.0,0.0,0.0,30.0
+four,0.0,0.0,0.0,0.0
+fragile,0.0,0.0,0.0,0.0
+fraudulent,0.0,0.0,0.0,0.0
+freeze,0.0,0.0,0.0,0.0
+$28.50,0.0,0.0,0.0,0.0
+freezer,0.0,0.0,0.0,0.0
+friendly,0.0,0.0,0.0,0.0
+fuel,0.0,0.0,0.0,0.0
+fuel_economy,0.0,0.0,0.0,0.0
+fun,0.0,0.0,0.0,0.0
+$30,0.0,0.0,0.0,0.0
+garlic,0.0,0.0,0.0,0.0
+$30 USD is equal to,0.0,0.0,0.0,0.0
+gas 100,0.0,0.0,0.0,0.0
+"gas: 0
+phone",0.0,0.0,0.0,0.0
+gas_type,0.0,0.0,0.0,30.0
+gasoline,0.0,0.0,0.0,0.0
+girn,0.0,0.0,0.0,0.0
+gloria,0.0,0.0,0.0,0.0
+goliath,0.0,0.0,0.0,0.0
+good,0.0,0.0,0.0,0.0
+$5,0.0,0.0,0.0,0.0
+google,0.0,0.0,0.0,0.0
+gramercy_tavern,0.0,0.0,0.0,0.0
+grateful,0.0,0.0,0.0,0.0
+great,0.0,0.0,0.0,0.0
+greeting,0.0,0.0,0.0,30.0
+grocery,0.0,0.0,0.0,0.0
+happy_birthday,0.0,0.0,0.0,0.0
+heads,0.0,0.0,0.0,0.0
+heat,0.0,0.0,0.0,0.0
+heath,0.0,0.0,0.0,0.0
+helicopter,0.0,0.0,0.0,0.0
+hello,0.0,0.0,0.0,0.0
+help,0.0,0.0,0.0,0.0
+hi,0.0,0.0,0.0,0.0
+holiday,0.0,0.0,0.0,0.0
+home,0.0,0.0,0.0,0.0
+hotel,0.0,0.0,0.0,0.0
+how_busy,0.0,0.0,0.0,30.0
+how_long,0.0,0.0,0.0,0.0
+*   *cancel_reservation*,0.0,0.0,0.0,0.0
+how_to_make_tuna,0.0,0.0,0.0,0.0
+human,0.0,0.0,0.0,0.0
+hush,0.0,0.0,0.0,0.0
+i want it,0.0,0.0,0.0,0.0
+idiosyncratic,0.0,0.0,0.0,0.0
+ignore,0.0,0.0,0.0,0.0
+improve_credit_score,0.0,0.0,0.0,30.0
+improvement,0.0,0.0,0.0,0.0
+in,0.0,0.0,0.0,0.0
+incandescent,0.0,0.0,0.0,0.0
+inches,0.0,0.0,0.0,0.0
+-1373,0.0,0.0,0.0,0.0
+ingredient_substitution,0.0,0.0,0.0,30.0
+ingredients,0.0,0.0,0.0,0.0
+0.88,0.0,0.0,0.0,0.0
+inner_tube,0.0,0.0,0.0,0.0
+1,0.0,0.0,0.0,0.0
+1.  Gather the necessary,0.0,0.0,0.0,0.0
+10,0.0,0.0,0.0,0.0
+international,0.0,0.0,0.0,0.0
+100,0.0,0.0,0.0,0.0
+international_visa,0.0,0.0,0.0,30.0
+ira,0.0,0.0,0.0,0.0
+jake,0.0,0.0,0.0,0.0
+jam,0.0,0.0,0.0,0.0
+joe,0.0,0.0,0.0,0.0
+john,0.0,0.0,0.0,0.0
+joke,0.0,0.0,0.0,0.0
+$1 USD is equal to,0.0,0.0,0.0,0.0
+jump_starting,0.0,0.0,0.0,0.0
+ketchup,0.0,0.0,0.0,0.0
+kilogram,0.0,0.0,0.0,0.0
+kilos,0.0,0.0,0.0,0.0
+korean,0.0,0.0,0.0,0.0
+lamp,0.0,0.0,0.0,0.0
+lasagna,0.0,0.0,0.0,0.0
+last_maintenance,0.0,0.0,0.0,30.0
+later,0.0,0.0,0.0,0.0
+laundry,0.0,0.0,0.0,0.0
+lawn_mowing,0.0,0.0,0.0,0.0
+lb,0.0,0.0,0.0,0.0
+less,0.0,0.0,0.0,0.0
+life,0.0,0.0,0.0,0.0
+loaves,0.0,0.0,0.0,0.0
+location,0.0,0.0,0.0,0.0
+los angeles,0.0,0.0,0.0,0.0
+lost,0.0,0.0,0.0,0.0
+lost_card,0.0,0.0,0.0,0.0
+100 calories,0.0,0.0,0.0,0.0
+m-o-n-t-p-e,0.0,0.0,0.0,0.0
+make,0.0,0.0,0.0,0.0
+make_call,0.0,0.0,0.0,30.0
+male,0.0,0.0,0.0,0.0
+map,0.0,0.0,0.0,0.0
+marie,0.0,0.0,0.0,0.0
+mark,0.0,0.0,0.0,0.0
+martin,0.0,0.0,0.0,0.0
+martins,0.0,0.0,0.0,0.0
+mary,0.0,0.0,0.0,0.0
+mash,0.0,0.0,0.0,0.0
+math,0.0,0.0,0.0,0.0
+mature,0.0,0.0,0.0,0.0
+"100 calories, 0",0.0,0.0,0.0,0.0
+mayo,0.0,0.0,0.0,0.0
+meal,0.0,0.0,0.0,0.0
+"100 calories, 8",0.0,0.0,0.0,0.0
+meaning,0.0,0.0,0.0,0.0
+100%,0.0,0.0,0.0,0.0
+measurement,0.0,0.0,0.0,0.0
+measurement_conversion,0.0,0.0,0.0,30.0
+meeting,0.0,0.0,0.0,0.0
+meeting_room,0.0,0.0,0.0,0.0
+meeting_rooms,0.0,0.0,0.0,0.0
+12,0.0,0.0,0.0,0.0
+metallica,0.0,0.0,0.0,0.0
+metallicas greatest hits,0.0,0.0,0.0,0.0
+microwave,0.0,0.0,0.0,0.0
+milk,0.0,0.0,0.0,0.0
+milliliters,0.0,0.0,0.0,0.0
+millimeters,0.0,0.0,0.0,0.0
+min_payment,0.0,0.0,0.0,30.0
+mountain,0.0,0.0,0.0,0.0
+12:00,0.0,0.0,0.0,0.0
+music,0.0,0.0,0.0,0.0
+nachos,0.0,0.0,0.0,0.0
+naff,0.0,0.0,0.0,0.0
+negatory,0.0,0.0,0.0,0.0
+new,0.0,0.0,0.0,0.0
+new_card,0.0,0.0,0.0,30.0
+next,0.0,0.0,0.0,0.0
+15,0.0,0.0,0.0,0.0
+1985,0.0,0.0,0.0,0.0
+2,0.0,0.0,0.0,0.0
+2-3 days,0.0,0.0,0.0,0.0
+o,0.0,0.0,0.0,0.0
+oatmeal,0.0,0.0,0.0,0.0
+obsolescence,0.0,0.0,0.0,0.0
+oil,0.0,0.0,0.0,0.0
+oil_change,0.0,0.0,0.0,0.0
+20,0.0,0.0,0.0,0.0
+oil_change_when,0.0,0.0,0.0,30.0
+oil_type,0.0,0.0,0.0,0.0
+oklahoma,0.0,0.0,0.0,0.0
+omelet,0.0,0.0,0.0,0.0
+2023,0.0,0.0,0.0,0.0
+order_checks,0.0,0.0,0.0,30.0
+order_doritos,0.0,0.0,0.0,0.0
+order_eggs,0.0,0.0,0.0,0.0
+order_food,0.0,0.0,0.0,0.0
+"order_food, uber",0.0,0.0,0.0,0.0
+order_oil,0.0,0.0,0.0,0.0
+2024,0.0,0.0,0.0,0.0
+other,0.0,0.0,0.0,0.0
+ounce,0.0,0.0,0.0,0.0
+out,0.0,0.0,0.0,0.0
+out_of_work,0.0,0.0,0.0,0.0
+outback,0.0,0.0,0.0,0.0
+outback_steakhouse,0.0,0.0,0.0,0.0
+oven,0.0,0.0,0.0,0.0
+package_tracking,0.0,0.0,0.0,0.0
+pancake,0.0,0.0,0.0,0.0
+papa johns,0.0,0.0,0.0,0.0
+paper_towels,0.0,0.0,0.0,0.0
+park,0.0,0.0,0.0,0.0
+pasta,0.0,0.0,0.0,0.0
+pay,0.0,0.0,0.0,0.0
+pay_bill,0.0,0.0,0.0,30.0
+paycheck,0.0,0.0,0.0,0.0
+2026,0.0,0.0,0.0,0.0
+phone,0.0,0.0,0.0,0.0
+2027,0.0,0.0,0.0,0.0
+pizza,0.0,0.0,0.0,0.0
+play,0.0,0.0,0.0,0.0
+25 * 38 =,0.0,0.0,0.0,0.0
+play_rap,0.0,0.0,0.0,0.0
+plug,0.0,0.0,0.0,0.0
+4,0.0,0.0,0.0,0.0
+plugging,0.0,0.0,0.0,0.0
+polynomial,0.0,0.0,0.0,0.0
+pork,0.0,0.0,0.0,0.0
+port,0.0,0.0,0.0,0.0
+portuguese,0.0,0.0,0.0,0.0
+post_office,0.0,0.0,0.0,0.0
+pound,0.0,0.0,0.0,0.0
+pounds,0.0,0.0,0.0,0.0
+ppl_balance,0.0,0.0,0.0,0.0
+400,0.0,0.0,0.0,0.0
+pto_days_left,0.0,0.0,0.0,0.0
+pto_days_remaining,0.0,0.0,0.0,0.0
+pto_request,0.0,0.0,0.0,30.0
+pto_request_status,0.0,0.0,0.0,30.0
+pto_usage,0.0,0.0,0.0,0.0
+401k,0.0,0.0,0.0,0.0
+quiet,0.0,0.0,0.0,0.0
+rapgod,0.0,0.0,0.0,0.0
+42,0.0,0.0,0.0,0.0
+recipe: scrambled_eggs,0.0,0.0,0.0,0.0
+recipe_chicken,0.0,0.0,0.0,0.0
+redeem_rewards,0.0,0.0,0.0,30.0
+regards,0.0,0.0,0.0,0.0
+48 * 4 =,0.0,0.0,0.0,0.0
+reminder_update,0.0,0.0,0.0,30.0
+remunerative,0.0,0.0,0.0,0.0
+rental,0.0,0.0,0.0,0.0
+5,0.0,0.0,0.0,0.0
+replacement_card,0.0,0.0,0.0,0.0
+6,0.0,0.0,0.0,0.0
+report_card,0.0,0.0,0.0,0.0
+6914,0.0,0.0,0.0,0.0
+745,0.0,0.0,0.0,0.0
+8,0.0,0.0,0.0,0.0
+restaurant,0.0,0.0,0.0,0.0
+90s,0.0,0.0,0.0,0.0
+restaurant_reviews,0.0,0.0,0.0,30.0
+restaurant_suggestion,0.0,0.0,0.0,30.0
+result: 4400,0.0,0.0,0.0,0.0
+reward,0.0,0.0,0.0,0.0
+reward_balance,0.0,0.0,0.0,0.0
+rewards,0.0,0.0,0.0,0.0
+rewards_balance,0.0,0.0,0.0,30.0
+robot,0.0,0.0,0.0,0.0
+rock,0.0,0.0,0.0,0.0
+roll,0.0,0.0,0.0,0.0
+A blonde walks into a bar,0.0,0.0,0.0,0.0
+rollover,0.0,0.0,0.0,0.0
+A man walked into a library,0.0,0.0,0.0,0.0
+According to the car's,0.0,0.0,0.0,0.0
+salsa,0.0,0.0,0.0,0.0
+schadenfreude,0.0,0.0,0.0,0.0
+schedule_maintenance,0.0,0.0,0.0,30.0
+schedule_meeting,0.0,0.0,0.0,30.0
+science,0.0,0.0,0.0,0.0
+set oven to 350,0.0,0.0,0.0,0.0
+set_temperature 350,0.0,0.0,0.0,0.0
+shane,0.0,0.0,0.0,0.0
+Alexa,0.0,0.0,0.0,0.0
+sherlock,0.0,0.0,0.0,0.0
+shopping,0.0,0.0,0.0,0.0
+"Alexa, play music",0.0,0.0,0.0,0.0
+shopping_list:,0.0,0.0,0.0,0.0
+shopping_list: chips,0.0,0.0,0.0,0.0
+shopping_list: eggs,0.0,0.0,0.0,0.0
+"shopping_list: eggs, milk",0.0,0.0,0.0,0.0
+shopping_list: hot_dogs,0.0,0.0,0.0,0.0
+shopping_list: milk,0.0,0.0,0.0,0.0
+"shopping_list: water, beer",0.0,0.0,0.0,0.0
+shopping_list_update,0.0,0.0,0.0,30.0
+shrimp,0.0,0.0,0.0,0.0
+sign,0.0,0.0,0.0,0.0
+skip,0.0,0.0,0.0,0.0
+sloppy_joe,0.0,0.0,0.0,0.0
+slow,0.0,0.0,0.0,0.0
+smart_home,0.0,0.0,0.0,30.0
+socket,0.0,0.0,0.0,0.0
+socket_converters,0.0,0.0,0.0,0.0
+sorry,0.0,0.0,0.0,0.0
+spaghetti,0.0,0.0,0.0,0.0
+speed,0.0,0.0,0.0,0.0
+America/Chicago,0.0,0.0,0.0,0.0
+spending_history,0.0,0.0,0.0,30.0
+sqrt,0.0,0.0,0.0,0.0
+sqrt(172),0.0,0.0,0.0,0.0
+sqrt(36) =,0.0,0.0,0.0,0.0
+sqrt(95),0.0,0.0,0.0,0.0
+starch,0.0,0.0,0.0,0.0
+starships,0.0,0.0,0.0,0.0
+subway,0.0,0.0,0.0,0.0
+swedish,0.0,0.0,0.0,0.0
+sync,0.0,0.0,0.0,0.0
+America/Denver,0.0,0.0,0.0,0.0
+tablespoon,0.0,0.0,0.0,0.0
+taco,0.0,0.0,0.0,0.0
+tacos,0.0,0.0,0.0,0.0
+America/Los_Angeles,0.0,0.0,0.0,0.0
+tell_joke,0.0,0.0,0.0,30.0
+temperature,0.0,0.0,0.0,0.0
+ten,0.0,0.0,0.0,0.0
+America/New_York,0.0,0.0,0.0,0.0
+thank,0.0,0.0,0.0,0.0
+America/Phoenix,0.0,0.0,0.0,0.0
+thanks,0.0,0.0,0.0,0.0
+Asia,0.0,0.0,0.0,0.0
+Back in Black,0.0,0.0,0.0,0.0
+Beans are a good source,0.0,0.0,0.0,0.0
+tire,0.0,0.0,0.0,0.0
+Bees are able to,0.0,0.0,0.0,0.0
+tire_change_how,0.0,0.0,0.0,0.0
+Bees are incredibly social creatures,0.0,0.0,0.0,0.0
+today,0.0,0.0,0.0,0.0
+Calories: 420,0.0,0.0,0.0,0.0
+Carrots are a nutrient,0.0,0.0,0.0,0.0
+tom yum,0.0,0.0,0.0,0.0
+tomorrow,0.0,0.0,0.0,0.0
+tortilla,0.0,0.0,0.0,0.0
+tortillas,0.0,0.0,0.0,0.0
+Check your owner's manual,0.0,0.0,0.0,0.0
+transactions,0.0,0.0,0.0,30.0
+Dallas,0.0,0.0,0.0,0.0
+transfer_amount: 17,0.0,0.0,0.0,0.0
+translate,0.0,0.0,0.0,30.0
+travel,0.0,0.0,0.0,0.0
+Did you know that bees,0.0,0.0,0.0,0.0
+travel_notification,0.0,0.0,0.0,30.0
+Did you know that dolphins have,0.0,0.0,0.0,0.0
+travel_visa,0.0,0.0,0.0,0.0
+trivia,0.0,0.0,0.0,0.0
+tuna,0.0,0.0,0.0,0.0
+tv,0.0,0.0,0.0,0.0
+twinkies,0.0,0.0,0.0,0.0
+Did you know that kangaro,0.0,0.0,0.0,0.0
+undo,0.0,0.0,0.0,0.0
+unencumbered,0.0,0.0,0.0,0.0
+unknown,0.0,0.0,0.0,0.0
+update_playlist,0.0,0.0,0.0,30.0
+Did you know that the,0.0,0.0,0.0,0.0
+vaccinations,0.0,0.0,0.0,0.0
+Did you know that the London,0.0,0.0,0.0,0.0
+vacuum,0.0,0.0,0.0,0.0
+visa,0.0,0.0,0.0,0.0
+$0.20,0.0,0.0,0.0,0.0
+w-o-n-d-e-r,0.0,0.0,0.0,0.0
+Did you know that the world,0.0,0.0,0.0,0.0
+walk,0.0,0.0,0.0,0.0
+walmart,0.0,0.0,0.0,0.0
+walt,0.0,0.0,0.0,0.0
+wash,0.0,0.0,0.0,0.0
+washing,0.0,0.0,0.0,0.0
+water,0.0,0.0,0.0,0.0
+Did you know that there,0.0,0.0,0.0,0.0
+what_are_your_hobbies,0.0,0.0,0.0,30.0
+what_can_i_ask_you,0.0,0.0,0.0,30.0
+what_is_your_name,0.0,0.0,0.0,30.0
+what_song,0.0,0.0,0.0,30.0
+where_are_you_from,0.0,0.0,0.0,30.0
+100 * 55 =,0.0,0.0,0.0,0.0
+volume,0.0,0.0,0.0,0.0
+who_do_you_work_for,0.0,0.0,0.0,30.0
+who_made_you,0.0,0.0,0.0,30.0
+why was the math book sad,0.0,0.0,0.0,0.0
+wings,0.0,0.0,0.0,0.0
+wonderful,0.0,0.0,0.0,0.0
+ya,0.0,0.0,0.0,0.0
+yank,0.0,0.0,0.0,0.0
+Did you know that wolves are,0.0,0.0,0.0,0.0
+yolo,0.0,0.0,0.0,0.0
+young,0.0,0.0,0.0,0.0
+yup,0.0,0.0,0.0,0.0
+zero,0.0,0.0,0.0,0.0
+£1,0.0,0.0,0.0,0.0
+¿Cómo dicen tacos,0.0,0.0,0.0,0.0
+whisper,0.0,0.0,0.0,0.0

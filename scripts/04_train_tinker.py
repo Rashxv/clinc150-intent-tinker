@@ -66,6 +66,7 @@ def build_train_config(config: dict, root: Path) -> train.Config:
         "learning_rate": float(config["training"]["learning_rate"]),
         "lr_schedule": "linear",
         "num_epochs": int(config["training"]["num_epochs"]),
+        "lora_rank": int(config["model"]["lora_rank"]),
         "eval_every": int(config["training"]["eval_every_steps"]),
         "save_every": int(config["training"]["save_every_steps"]),
     }
